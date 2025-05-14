@@ -1,29 +1,28 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+NOKtoEUR(12);
+NOKtoUSD(19);
 
-    Console.WriteLine("NOK til Euro");
-    Console.WriteLine("NOK til USD");
+void NOKtoEUR(double NOK)
+{
+    double EUR = NOK / 11.56;
+    Console.WriteLine(EUR);
+}
 
+void NOKtoUSD(double NOK)
+{
+    double USD = NOK / 10.29;
+    Console.WriteLine(USD);
+}
 
+void EURtoNOK(double EUR)
+{
+    double NOK = EUR * 11.56;
+    Console.WriteLine(NOK);
+}
 
-    string valg = Convert.ToString(Console.ReadLine());
-    double belop = Convert.ToDouble(Console.ReadLine());
-    string fra = "", til = "";
-    double resultat = 0;
-
-
-    switch (valg)
-            {
-                case "1": 
-                    resultat = belop / 11.56;
-                    Console.WriteLine($"Resultat: {resultat}");
-                    break;
-                case "2":
-                    resultat = belop / 10.29;
-                    Console.WriteLine($"Resultat: {resultat}");
-                    break;
-                default: Console.WriteLine("Ugyldig svar");
-                    break;
-            }
-
-  
+void USDtoNOK(double USD)
+{
+    double NOK = USD * 10.29;
+    Console.WriteLine(NOK);
+}

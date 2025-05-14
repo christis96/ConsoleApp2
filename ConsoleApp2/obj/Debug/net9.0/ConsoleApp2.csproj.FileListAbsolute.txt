@@ -12,3 +12,4 @@
 /home/christian/RiderProjects/ConsoleApp2/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.pdb
 /home/christian/RiderProjects/ConsoleApp2/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.genruntimeconfig.cache
 /home/christian/RiderProjects/ConsoleApp2/ConsoleApp2/obj/Debug/net9.0/ref/ConsoleApp2.dll
+/home/christian/RiderProjects/ConsoleApp2/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.sourcelink.json
